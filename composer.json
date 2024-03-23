@@ -1,5 +1,5 @@
 {
-    "name": "littlecxm/whisper",
+    "name": "marcopeter/whisper",
     "description": "Private Messaging for Flarum.",
     "keywords": [
         "flarum",
@@ -12,6 +12,11 @@
     "type": "flarum-extension",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Marco Peter",
+            "email": "marco@peter-net.ch",
+            "homepage": "https://peter-net.ch"
+        },
         {
             "name": "Charlie Kern",
             "email": "Charlie.K@redevs.org",
@@ -28,8 +33,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/littlecxm/whisper/issues",
-        "source": "https://github.com/littlecxm/whisper",
+        "issues": "https://github.com/Marco-Peter/whisper/issues",
+        "source": "https://github.com/Marco-Peter/whisper",
         "forum": "https://discuss.flarum.org/d/24073-whisper-private-messaging-for-flarum"
     },
     "require": {
@@ -37,7 +42,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Kyrne\\Whisper\\": "src/"
+            "MarcoPeter\\Whisper\\": "src/"
         }
     },
     "extra": {
